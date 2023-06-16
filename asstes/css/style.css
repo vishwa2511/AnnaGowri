@@ -1,0 +1,413 @@
+:root {
+  --bg-green: #00AE55;
+  --footer-bg: #1D2432;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHvxk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVew8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v18/wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v18/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v18/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vUDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKebukDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfFukDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtvAw.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+.col-25 {
+  width: 25%;
+}
+.col-33 {
+  width: 33.3333%;
+}
+.col-30 {
+  width: 30%;
+}
+.col-40 {
+  width: 40%;
+}
+.col-45 {
+  width: 45%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-55 {
+  width: 55%;
+}
+.col-60 {
+  width: 60%;
+}
+.col-70 {
+  width: 70%;
+}
+body .main-img {
+  position: absolute;
+  left: calc(50% - 720px);
+  opacity: 0.8;
+  z-index: -1;
+  width: 1440px;
+}
+body .default-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+body header {
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  padding-bottom: 32px;
+}
+body header .top-header {
+  background-color: var(--bg-green);
+  height: 25px;
+}
+body header .top-header .default-container {
+  height: 25px;
+}
+body header .top-header .contact-sec,
+body header .top-header .social-sec {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+body header .top-header .contact-sec a,
+body header .top-header .social-sec a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  font-size: 14px;
+}
+body header .top-header .contact-sec a i,
+body header .top-header .social-sec a i {
+  color: #fff;
+}
+body header .top-header .contact-sec.contact-sec a:nth-child(2),
+body header .top-header .social-sec.contact-sec a:nth-child(2) {
+  gap: 6px;
+  margin-left: 11px;
+}
+body header .top-header .contact-sec.contact-sec a:nth-child(2) i,
+body header .top-header .social-sec.contact-sec a:nth-child(2) i {
+  font-size: 10px;
+  margin-top: 2px;
+}
+body header .top-header .contact-sec.social-sec a:nth-child(1),
+body header .top-header .social-sec.social-sec a:nth-child(1) {
+  gap: 12px;
+}
+body header nav {
+  margin-top: 34px;
+}
+body header nav a.logo {
+  width: 296px;
+  margin-left: 3px;
+}
+body header nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-right: 5px;
+}
+body header nav .menu a {
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.5), 0 2px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.9s all;
+}
+body header nav .menu a:hover {
+  color: var(--bg-green);
+}
+main .banner-sec-all {
+  height: 366px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/asstes/images/default-banner.png);
+  background-position: 50% 0px;
+  background-size: cover;
+}
+main .banner-sec-all .default-container {
+  padding: 167px 0px 0px;
+  display: table;
+  text-align: center;
+}
+main .banner-sec-all .default-container h1 {
+  font-size: 52.5px;
+  line-height: 70px;
+  font-weight: 800;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+footer {
+  background-color: var(--footer-bg);
+  font-family: 'Open Sans', sans-serif;
+}
+footer .default-container {
+  padding: 55px 0px;
+  gap: 70px;
+}
+footer .default-container h2,
+footer .default-container h4,
+footer .default-container p,
+footer .default-container span,
+footer .default-container a,
+footer .default-container ul,
+footer .default-container ul li {
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+}
+footer .default-container h2 {
+  font-size: 22.5px;
+  font-weight: 700;
+  line-height: 26px;
+}
+footer .default-container .col-33:nth-child(1) {
+  text-align: right;
+  border-right: 1px solid #c6c8cc;
+  padding-right: 39px;
+  align-self: start;
+  font-family: 'Open Sans', sans-serif;
+}
+footer .default-container .col-33:nth-child(1) h4 {
+  font-size: 13.6px;
+  font-weight: 700;
+  line-height: 22.27px;
+  margin-top: 23px;
+}
+footer .default-container .col-33:nth-child(1) a {
+  font-size: 13.6px;
+  font-weight: 400;
+  line-height: 22.27px;
+  font-family: 'Open Sans', sans-serif;
+}
+footer .default-container .col-33:nth-child(1) p {
+  font-size: 13.6px;
+  font-weight: 400;
+  line-height: 22.27px;
+}
+footer .default-container .col-33:nth-child(2) {
+  text-align: center;
+  align-self: start;
+}
+footer .default-container .col-33:nth-child(2) p {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  font-family: 'Lexend', sans-serif;
+  margin-top: 12px;
+  margin-bottom: 26px;
+  letter-spacing: 0.6px;
+  margin-right: 6px;
+}
+footer .default-container .col-33:nth-child(2) ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+footer .default-container .col-33:nth-child(2) ul li a {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: var(--bg-green);
+  border-radius: 50%;
+  display: table;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.9s all;
+}
+footer .default-container .col-33:nth-child(2) ul li a i {
+  color: #fff;
+}
+footer .default-container .col-33:nth-child(2) ul li a:hover {
+  background-color: #fff;
+}
+footer .default-container .col-33:nth-child(2) ul li a:hover i {
+  color: var(--bg-green);
+}
+footer .default-container .col-33:nth-child(3) {
+  text-align: left;
+  border-left: 1px solid #c6c8cc;
+  padding-left: 37px;
+}
+footer .default-container .col-33:nth-child(3) ul {
+  margin-top: 17px;
+}
+footer .default-container .col-33:nth-child(3) ul li a {
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 35.49px;
+  font-family: 'Open Sans', sans-serif;
+}
+footer .bottom-footer {
+  border-top: 1px solid #d4d4d4;
+  padding: 16px 0;
+}
+footer .bottom-footer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13.5px;
+  font-weight: 300;
+  line-height: 22.27px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+footer .bottom-footer p span {
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 22.27px;
+  color: #fff;
+}
+@media (max-width: 1200px) {
+  body .default-container {
+    max-width: calc(100% - 100px) !important;
+  }
+}

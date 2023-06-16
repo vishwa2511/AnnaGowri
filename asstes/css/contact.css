@@ -1,0 +1,143 @@
+body .contact-sec .default-container {
+  padding: 102px 0px 0px 0px;
+}
+body .contact-sec .default-container .col-50:nth-child(1) {
+  padding-right: 62px;
+}
+body .contact-sec .default-container .col-50:nth-child(1) .contant-img {
+  background-image: url(/asstes/images/contact-phone.png);
+  height: 553.14px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  border-radius: 18px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) {
+  align-self: start;
+  margin-top: -5px;
+  padding-right: 41px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) h2 {
+  font-size: 40.71px;
+  line-height: 51.27px;
+  font-weight: 800;
+  font-family: 'Playfair Display', serif;
+  color: var(--bg-green);
+  margin-bottom: 58px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card {
+  display: flex;
+  padding: 8px;
+  border: 1px solid #EEEEEE;
+  border-radius: 2px;
+  gap: 11px;
+  margin-bottom: 15px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card .col-20 i {
+  color: var(--bg-green);
+  font-size: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72.47px;
+  height: 72.47px;
+  background-color: #F4F4F4;
+  margin-right: 4px;
+  position: relative;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card .col-20 i::after {
+  content: "";
+  position: absolute;
+  background-image: url('/asstes/images/sprite-img.png');
+  background-size: 400px 400px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card .col-20 i.icn-address::after {
+  background-position: -6px -4px;
+  width: 33px;
+  height: 40px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card .col-20 i.icn-phone::after {
+  background-position: -65px 0;
+  width: 41px;
+  height: 42px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card .col-20 i.icn-email::after {
+  background-position: -124px -2px;
+  width: 38px;
+  height: 30px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card .col-80 p {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #8e8e8e;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card .col-80 p span {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #8e8e8e;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card h3 {
+  font-size: 20.36px;
+  line-height: 23.86px;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  color: var(--bg-green);
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card:nth-child(2) .col-80 h3 {
+  margin-top: 4px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card:nth-child(3) .col-80 h3 {
+  margin-top: 13px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card:nth-child(3) .col-80 a {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #8e8e8e;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card:nth-child(4) .col-80 h3 {
+  margin-top: 14px;
+}
+body .contact-sec .default-container .col-50:nth-child(2) .card:nth-child(4) .col-80 a {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+body .contact-sec .default-container .social-con {
+  display: flex;
+  gap: 13px;
+  margin-top: 58px;
+}
+body .contact-sec .default-container .social-con a {
+  width: 48px;
+  height: 48px;
+  background-color: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 31px;
+}
+body .contact-sec .default-container .social-con a i {
+  color: var(--bg-green);
+  text-align: center;
+  font-size: 23px;
+}
+body .map-sec .default-container {
+  padding: 141px 0px;
+}
+body .map-sec .default-container .cont-img {
+  height: 617px;
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}

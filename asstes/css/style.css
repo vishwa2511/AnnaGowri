@@ -259,7 +259,6 @@ body header nav .menu {
 body header nav .menu a {
   font-size: 16px;
   color: #fff;
-  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.5), 0 2px 5px rgba(0, 0, 0, 0.5);
   transition: 0.9s all;
 }
 body header nav .menu a:hover {

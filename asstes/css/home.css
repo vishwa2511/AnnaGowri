@@ -62,12 +62,28 @@ body main .about-us-sec .default-container .col-50:nth-child(2) p {
 }
 body main .about-us-sec .default-container a {
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   font-style: italic;
   line-height: 26px;
   margin-top: 35px;
   display: table;
   margin-left: 3px;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+body main .about-us-sec .default-container a::before {
+  content: "\f061";
+  position: absolute;
+  color: var(--bg-green);
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  top: 8px;
+  font-size: 13px;
+  right: -23px;
 }
 body main .hospital-divisions-sec {
   height: 720px;
@@ -148,13 +164,28 @@ body main .hospital-divisions-sec .col-50:nth-child(2) {
 }
 body main .hospital-divisions-sec .col-50 a {
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   font-style: italic;
   line-height: 26px;
-  margin-top: 30px;
+  margin-top: 35px;
   display: table;
-  margin-left: 23px;
-  letter-spacing: 0.1px;
+  margin-left: 3px;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+body main .hospital-divisions-sec .col-50 a::before {
+  content: "\f061";
+  position: absolute;
+  color: var(--bg-green);
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  top: 8px;
+  font-size: 13px;
+  right: -23px;
 }
 body main .facilities-sec .default-container {
   padding: 170px 0 168px 0;

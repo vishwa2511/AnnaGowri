@@ -1,8 +1,8 @@
-body{
+body {
     main {
         .banner-sec {
             height: 611px;
-            background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/asstes/images/banner.png);
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/asstes/images/banner.png);
             // background-image: url(/asstes/images/banner.png);
             background-position: 50% 0px;
             background-size: cover;
@@ -77,12 +77,30 @@ body{
 
                 a {
                     font-size: 13px;
-                    font-weight: 400;
+                    font-weight: 600;
                     font-style: italic;
                     line-height: 26px;
                     margin-top: 35px;
                     display: table;
                     margin-left: 3px;
+                    font-family: 'Lato', sans-serif;
+                    position: relative;
+
+                    &::before {
+                        content: "\f061";
+                        position: absolute;
+                        color: var(--bg-green);
+                        font: normal normal normal 14px/1 FontAwesome;
+                        font-size: inherit;
+                        text-rendering: auto;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        text-align: center;
+                        top: 8px;
+                        font-size: 13px;
+                        right: -23px;
+
+                    }
                 }
             }
         }
@@ -173,13 +191,30 @@ body{
 
                 a {
                     font-size: 13px;
-                    font-weight: 400;
+                    font-weight: 600;
                     font-style: italic;
                     line-height: 26px;
-                    margin-top: 30px;
+                    margin-top: 35px;
                     display: table;
-                    margin-left: 23px;
-                    letter-spacing: 0.1px;
+                    margin-left: 3px;
+                    font-family: 'Lato', sans-serif;
+                    position: relative;
+
+                    &::before {
+                        content: "\f061";
+                        position: absolute;
+                        color: var(--bg-green);
+                        font: normal normal normal 14px/1 FontAwesome;
+                        font-size: inherit;
+                        text-rendering: auto;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        text-align: center;
+                        top: 8px;
+                        font-size: 13px;
+                        right: -23px;
+
+                    }
                 }
             }
         }

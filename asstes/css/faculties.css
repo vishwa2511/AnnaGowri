@@ -49,6 +49,18 @@ body .facult-sec .default-container .facult-img-sec .col-25:nth-child(1) .facult
 body .facult-sec .default-container .facult-img-sec .col-25:nth-child(2) .facult-img {
   background-image: url(/asstes/images/staffs/Dr.\ MAGANTI\ NAGABALARAM\ \(Ayu\).jpg);
 }
+body .facult-sec .default-container .facult-img-sec .col-25:nth-child(3) .facult-img {
+  background-image: url(https://ide.ginfoclique.com/workspace/elytsin/vishwatask/Anna-Gowri-Ayurveda/assets/images/Profile.png);
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+body .facult-sec .default-container .facult-img-sec .col-25:nth-child(4) .facult-img {
+  background-image: url(https://ide.ginfoclique.com/workspace/elytsin/vishwatask/Anna-Gowri-Ayurveda/assets/images/Profile.png);
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
 body .facult-sec .default-container .facult-img-sec .col-25:nth-child(5) .facult-img {
   background-image: url(/asstes/images/staffs/Dr.\ VASU\ RAY\ MD\ \(Ayu\).jpg);
 }
@@ -126,9 +138,9 @@ body .medical-sec .default-container .facult-img-sec .col-25 .facult-img {
   height: 94px;
   width: 94px;
   background-image: url(/asstes/images/Profile.png);
-  background-size: cover;
-  background-position: 50% 0px;
+  background-position: 50% 50%;
   border-radius: 21px;
+  background-repeat: no-repeat;
 }
 body .medical-sec .default-container .facult-img-sec .col-25 h3 {
   font-family: 'Playfair Display', serif;

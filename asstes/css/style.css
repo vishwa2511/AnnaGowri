@@ -249,6 +249,18 @@ body header nav a.logo {
   width: 296px;
   margin-left: 3px;
 }
+body header nav .hamburger {
+  cursor: pointer;
+  display: none;
+}
+body header nav .hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
 body header nav .menu {
   display: flex;
   align-items: center;
@@ -408,5 +420,36 @@ footer .bottom-footer p span {
 @media (max-width: 1200px) {
   body .default-container {
     max-width: calc(100% - 100px) !important;
+  }
+}
+@media (max-width: 768px) {
+  body header nav .hamburger {
+    display: block;
+  }
+  body header nav .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+    transform: translateY(8px) rotate(4deg);
+  }
+  body header nav .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  body header nav .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  body header nav .menu {
+    position: fixed;
+    top: 163px;
+    flex-direction: column;
+    gap: 10px;
+    right: -205px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    transition: all 1s ease-in-out;
+    margin-right: 0px;
+  }
+  body header nav .menu.active {
+    right: 0px;
   }
 }

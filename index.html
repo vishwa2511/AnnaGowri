@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    
+
     <header>
         <div class="top-header">
             <div class="default-container">
@@ -32,9 +32,15 @@
         <nav>
             <div class="default-container">
                 <a class="logo" href="index.html"><img src="asstes/images/logo.png"></a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+
+                </div>
                 <div class="menu">
                     <a href="about.html">About</a>
-                    <a href="Hospital.html">Hospital</a>
+                    <a href="hospital.html">Hospital</a>
                     <a href="faculties.html">Faculties</a>
                     <a href="gallery.html">Gallery</a>
                     <a href="facilities.html">Facilities</a>
@@ -57,7 +63,7 @@
                     <p>The ANNA GOWRI AYURVEDA COLLEGE HOSPITALS & RESEARCH CENTRE is situated in the TIRUTTANI-TIRUPATI
                         Highway in the divine land of ANDHRA PRADESH. The campus is easily approachable by road and
                         Indian railway network.</p>
-                    <a href="javascript:;">Known More About Us</a>
+                    <a href="about.html">Known More About Us</a>
                 </div>
                 <div class="col-50">
                     <div class="about-us-img">
@@ -84,7 +90,7 @@
                     <li>Hospital Staff Attendance</li>
                     <li>Clinical Materials</li>
                 </ul>
-                <a href="javascript:;">Known More Hospitals</a>
+                <a href="hospital.html">Known More Hospitals</a>
             </div>
         </div>
         <div class="facilities-sec">
@@ -134,7 +140,7 @@
                 <h2>Quick Links</h2>
                 <ul>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="Hospital.html">Hospital</a></li>
+                    <li><a href="hospital.html">Hospital</a></li>
                     <li><a href="faculties.html">Faculties</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="facilities.html">Facilities</a></li>
@@ -146,6 +152,14 @@
             <p>Copyright © 2023 <span>Anna Gowri Ayurveda College </span> All Rights Reserved</p>
         </div>
     </footer>
+    <script>
+        var hambur=document.querySelector(".hamburger")
+        var navmenu=document.querySelector(".menu")
+        hambur.addEventListener("click",()=>{
+            hambur.classList.toggle("active");
+            navmenu.classList.toggle("active");
+        })
+    </script>
 </body>
 
 </html>

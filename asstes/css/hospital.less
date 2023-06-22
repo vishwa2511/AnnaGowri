@@ -16,6 +16,8 @@ body {
                 width: calc(33.3333% - 14px);
                 align-items: center;
 
+
+
                 .col-20 {
                     min-height: 56px;
                     min-width: 56px;
@@ -41,6 +43,40 @@ body {
                     color: #4C4C4C;
                 }
             }
+
+            .col-33:nth-child(1) {
+                order: 1;
+            }
+
+            .col-33:nth-child(2) {
+                order: 4;
+            }
+
+            .col-33:nth-child(3) {
+                order: 7;
+            }
+
+            .col-33:nth-child(4) {
+                order: 2;
+            }
+
+            .col-33:nth-child(5) {
+                order: 5;
+            }
+
+            .col-33:nth-child(6) {
+                order: 8;
+            }
+
+            .col-33:nth-child(7) {
+                order: 3;
+            }
+
+            .col-33:nth-child(8) {
+                order: 6;
+            }
+
+
         }
     }
 
@@ -84,6 +120,11 @@ body {
                 display: flex;
                 margin-top: 30px;
                 gap: 52px;
+                flex-wrap: wrap;
+
+                .col-50 {
+                    width: calc(50% - 26px);
+                }
 
                 p {
                     font-family: 'Lato', sans-serif;
@@ -103,6 +144,7 @@ body {
         .default-container {
             padding: 118px 0px 142px 0px;
             gap: 44px;
+            flex-wrap: wrap;
 
             .col-50 {
                 background: #FFFFFF;
@@ -110,6 +152,7 @@ body {
                 padding: 44px 198px 67px 36px;
                 align-self: self-start;
                 min-height: 413px;
+                width: calc(50% - 22px);
 
                 h3 {
                     font-family: 'Playfair Display', serif;
@@ -190,8 +233,6 @@ body {
     .shalay-sec {
         height: 456px;
         position: relative;
-
-
         &::before {
             content: "";
             background-image: url(/asstes/images/shalay1.webp);
@@ -206,6 +247,7 @@ body {
         }
 
         .default-container {
+            flex-wrap: wrap;
             .col-50 {
                 padding-left: 70px;
 
@@ -690,4 +732,93 @@ body {
             }
         }
     }
+}
+
+@media (max-width:1024px) {
+    body .hospital-sec .default-container .col-33 {
+        width: calc(50% - 20px);
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(1) {
+        order: 1;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(2) {
+        order: 3;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(3) {
+        order: 5;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(4) {
+        order: 7;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(5) {
+        order: 2;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(6) {
+        order: 4;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(7) {
+        order: 6;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(8) {
+        order: 8;
+    }
+
+    body .hospital-unit-sec .default-container .col-50 {
+        padding: 44px 68px 67px 36px;
+    }
+
+}
+
+@media (max-width:788px) {
+
+    body .hospital-sec .default-container .col-33,
+    body .hospital-facilities-sec .default-container .p-sec .col-50,
+    body .hospital-unit-sec .default-container .col-50 {
+        width: 100%;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(1) {
+        order: 1;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(2) {
+        order: 2;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(3) {
+        order: 3;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(4) {
+        order: 4;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(5) {
+        order: 5;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(6) {
+        order: 6;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(7) {
+        order: 7;
+    }
+
+    body .hospital-sec .default-container .col-33:nth-child(8) {
+        order: 8;
+    }
+    body .hospital-facilities-sec .default-container
+    {
+        padding: 64px 60px;
+    }
+
 }

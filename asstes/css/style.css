@@ -302,6 +302,7 @@ footer .default-container {
   padding: 55px 0px;
   gap: 70px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 footer .default-container h2,
 footer .default-container h4,
@@ -427,6 +428,12 @@ footer .bottom-footer p span {
   }
 }
 @media (max-width: 768px) {
+  body header nav a.logo img {
+    max-width: 230px;
+  }
+  body .gallery .default-container .galle-btn .gell-btn {
+    font-size: 16px !important;
+  }
   body header nav .hamburger {
     display: block;
   }
@@ -457,7 +464,7 @@ footer .bottom-footer p span {
     right: 0px;
   }
   footer .default-container .col-33 {
-    width: 100%;
+    width: calc(50% - 35px);
   }
   footer .default-container .col-33:nth-child(1),
   footer .default-container .col-33:nth-child(3) {
@@ -465,5 +472,10 @@ footer .bottom-footer p span {
     padding-right: 0px;
     padding-left: 0px;
     border: 0px;
+  }
+}
+@media (max-width: 700px) {
+  footer .default-container .col-33 {
+    width: 100%;
   }
 }

@@ -159,3 +159,21 @@ body .medical-sec .default-container .facult-img-sec .col-25 p {
   color: #4C4C4C;
   text-align: center;
 }
+@media (max-width: 1200px) {
+  body .facult-sec .default-container .facult-img-sec .col-25,
+  body .medical-sec .default-container .facult-img-sec .col-25 {
+    width: calc(33.3333% - 36px);
+  }
+}
+@media (max-width: 926px) {
+  body .facult-sec .default-container .facult-img-sec .col-25,
+  body .medical-sec .default-container .facult-img-sec .col-25 {
+    width: calc(50% - 18px);
+  }
+}
+@media (max-width: 630px) {
+  body .facult-sec .default-container .facult-img-sec .col-25,
+  body .medical-sec .default-container .facult-img-sec .col-25 {
+    width: 100%;
+  }
+}

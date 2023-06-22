@@ -116,6 +116,7 @@
 .mission {
     .default-container {
         padding: 35px 0px 0px 0px;
+        flex-wrap: wrap-reverse;
 
         .col-55 {
             padding: 79px 0px 77px 55px;
@@ -269,6 +270,26 @@
 
     .ayurveda .default-container .col-50:nth-child(2) {
         padding-left: 0;
+    }
+
+    .vision .default-container .col-45,
+    .mission .default-container .col-45 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .vision .default-container .col-45,
+    .vision .default-container .col-55,
+    .mission .default-container .col-45,
+    .mission .default-container .col-55 {
+        width: 100%;
+        height: fit-content;
+
+    }
+
+    .vision .default-container .col-55,
+    .mission .default-container .col-55 {
+        margin-top: 35px;
     }
 }
 

@@ -177,7 +177,7 @@ body {
 main {
     .banner-sec-all {
         height: 366px;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/asstes/images/default-banner.png);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/asstes/images/default-banner.webp);
         background-position: 50% 0px;
         background-size: cover;
 
@@ -205,6 +205,7 @@ footer {
     .default-container {
         padding: 55px 0px;
         gap: 70px;
+        flex-wrap: wrap;
 
         h2,
         h4,
@@ -223,7 +224,10 @@ footer {
             font-weight: 700;
             line-height: 26px;
         }
-
+        .col-33
+        {
+            width: calc(33.3333% - 70px);
+        }
 
         .col-33:nth-child(1) {
             text-align: right;
@@ -403,9 +407,17 @@ footer {
     body header nav .menu.active {
         right: 0px;
     }
-
-    body main .about-us-sec .default-container .col-50
-    {
-      
+    footer .default-container .col-33 {
+        width: 100%;
     }
+
+    footer .default-container .col-33:nth-child(1),
+    footer .default-container .col-33:nth-child(3) 
+    {
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        border: 0px;
+    }
+
 }

@@ -1,12 +1,16 @@
 .ayurveda .default-container {
   padding: 139px 0px 0px 0px;
   gap: 50px;
+  flex-wrap: wrap;
 }
 .ayurveda .default-container .col-50 {
+  width: calc(50% - 25px);
+}
+.ayurveda .default-container .col-50:nth-child(1) {
   padding-right: 35px;
 }
-.ayurveda .default-container .col-50 .ayurimg {
-  background-image: url(/asstes/images/about/about-1.png);
+.ayurveda .default-container .col-50:nth-child(1) .ayurimg {
+  background-image: url(/asstes/images/about/about-1.webp);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -30,6 +34,7 @@
   font-family: 'Playfair Display', serif;
   color: var(--bg-green);
   margin-top: 42px;
+  max-width: 415px;
 }
 .ayurveda .default-container .col-50:nth-child(2) p {
   margin-top: 39px;
@@ -47,13 +52,14 @@
 }
 .vision .default-container {
   padding: 157px 0px 0px 0px;
+  flex-wrap: wrap;
 }
 .vision .default-container .col-45 {
   padding-right: 26px;
 }
 .vision .default-container .col-45 .visionimg {
   height: 306.38px;
-  background-image: url(/asstes/images/about/about-2.png);
+  background-image: url(/asstes/images/about/about-2.webp);
   background-size: cover;
   background-position: center;
   border-radius: 25px;
@@ -104,7 +110,7 @@
 }
 .mission .default-container .col-45 .missionimg {
   height: 382.62px;
-  background-image: url(/asstes/images/about/about-3.png);
+  background-image: url(/asstes/images/about/about-3.webp);
   background-position: center;
   background-size: cover;
   border-radius: 24px;
@@ -133,8 +139,12 @@
   display: flex;
   width: 100%;
   gap: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .admin .default-container .admin-section .col-33 {
+  width: calc(33.3333% - 50px);
   margin-top: 30px;
   background-color: #F9F8F8;
   border-radius: 25px;
@@ -143,10 +153,10 @@
   cursor: pointer;
 }
 .admin .default-container .admin-section .col-33:nth-child(2) .adm-img {
-  background-image: url(/asstes/images/about/admin1.png);
+  background-image: url(/asstes/images/about/admin1.webp);
 }
 .admin .default-container .admin-section .col-33:nth-child(3) .adm-img {
-  background-image: url(/asstes/images/about/admin2.png);
+  background-image: url(/asstes/images/about/admin2.webp);
 }
 .admin .default-container .admin-section .col-33:hover {
   box-shadow: 0px 16.478px 28.8365px rgba(167, 167, 167, 0.25);
@@ -157,7 +167,7 @@
 }
 .admin .default-container .admin-section .col-33 .adm-img {
   height: 363.75px;
-  background-image: url(/asstes/images/about/admin.jpg);
+  background-image: url(/asstes/images/about/admin.webp);
   background-size: cover;
   background-position: center;
 }
@@ -173,4 +183,25 @@
   font-weight: 400;
   line-height: 20px;
   color: #4C4C4C;
+}
+@media (max-width: 1080px) {
+  .admin .default-container .admin-section .col-33 {
+    width: calc(50% - 25px);
+  }
+}
+@media (max-width: 768px) {
+  .ayurveda .default-container .col-50 {
+    width: 100%;
+  }
+  .ayurveda .default-container .col-50:nth-child(1) {
+    padding-right: 0;
+  }
+  .ayurveda .default-container .col-50:nth-child(2) {
+    padding-left: 0;
+  }
+}
+@media (max-width: 700px) {
+  .admin .default-container .admin-section .col-33 {
+    width: 100%;
+  }
 }

@@ -2,8 +2,8 @@ body {
     main {
         .banner-sec {
             height: 611px;
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/asstes/images/banner.png);
-            // background-image: url(/asstes/images/banner.png);
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/asstes/images/banner.webp);
+            // background-image: url(/asstes/images/banner.webp);
             background-position: 50% 0px;
             background-size: cover;
 
@@ -24,6 +24,7 @@ body {
             .default-container {
                 align-items: start;
                 padding: 111px 0 171px 0;
+                flex-wrap: wrap;
 
                 h3 {
                     font-size: 16px;
@@ -44,7 +45,7 @@ body {
                 }
 
                 .about-us-img {
-                    background-image: url('/asstes/images/about-us.png');
+                    background-image: url('/asstes/images/about-us.webp');
                     background-size: cover;
                     background-position: center;
                     width: 100%;
@@ -112,7 +113,7 @@ body {
 
             &::before {
                 content: "";
-                background-image: url(/asstes/images/hospital-dev.png);
+                background-image: url(/asstes/images/hospital-dev.webp);
                 background-position: center;
                 background-size: cover;
                 width: 60vw;
@@ -223,7 +224,7 @@ body {
             .default-container {
                 padding: 170px 0 168px 0;
                 gap: 50px;
-
+                flex-wrap: wrap;
 
                 .col-33 {
                     min-height: 380px;
@@ -238,14 +239,14 @@ body {
                     }
 
                     &:nth-child(2) {
-                        background-image: url(/asstes/images/facility-1.png);
+                        background-image: url(/asstes/images/facility-1.webp);
                         max-width: 350px;
                         background-size: cover;
                         background-position: center;
                     }
 
                     &:nth-child(3) {
-                        background-image: url(/asstes/images/facility-2.png);
+                        background-image: url(/asstes/images/facility-2.webp);
                         max-width: 350px;
                         background-size: cover;
                         background-position: center;
@@ -301,4 +302,40 @@ body {
             }
         }
     }
+}
+
+@media(max-width:1200px) {
+    body main .facilities-sec .default-container {
+        justify-content: center;
+    }
+
+    body main .facilities-sec .default-container .col-33 {
+        width: calc(50% - 25px);
+
+    }
+
+}
+
+
+@media(max-width:768px) {
+
+    body main .facilities-sec .default-container .col-33 {
+        width: 100%;
+
+    }
+
+    body main .about-us-sec .default-container .col-50 {
+        width: 100%;
+        padding: 0;
+    }
+
+    body main .about-us-sec .default-container .col-50:nth-child(1) {
+        padding-right: 0px;
+    }
+
+    body main .about-us-sec .default-container .col-50:nth-child(2) {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
 }

@@ -13,6 +13,7 @@ body main .banner-sec .default-container h1 {
   letter-spacing: 0.3px;
   font-weight: 400;
   color: #fff;
+  max-width: 500px;
 }
 body main .about-us-sec .default-container {
   align-items: start;
@@ -87,7 +88,6 @@ body main .about-us-sec .default-container a::before {
   right: -23px;
 }
 body main .hospital-divisions-sec {
-  height: 720px;
   position: relative;
   padding: 77px 0 84px 0;
 }
@@ -267,8 +267,30 @@ body main .facilities-sec .default-container .col-33 ul li::before {
   }
 }
 @media (max-width: 768px) {
+  body main .banner-sec .default-container h1 {
+    font-size: 30px;
+    max-width: 400px;
+  }
+  body main .about-us-sec .default-container p,
+  body main .about-us-sec .default-container h2 {
+    margin-top: 40px !important;
+  }
+  body main .hospital-divisions-sec::before {
+    width: 100vw;
+    height: 480px;
+  }
+  body main .hospital-divisions-sec .col-50:nth-child(2) {
+    width: calc(100% - 100px);
+    left: 50px;
+    float: none;
+    margin-top: 301px;
+    border-radius: 23px;
+  }
   body main .facilities-sec .default-container .col-33 {
     width: 100%;
+  }
+  body main .facilities-sec .default-container .col-33:nth-child(1) {
+    max-width: 350px;
   }
   body main .about-us-sec .default-container .col-50 {
     width: 100%;

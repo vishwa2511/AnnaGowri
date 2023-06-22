@@ -177,7 +177,6 @@ body .hospital-unit-sec .default-container .col-50:nth-child(2) ul li::before {
   left: -2px;
 }
 body .shalay-sec {
-  height: 456px;
   position: relative;
 }
 body .shalay-sec::before {
@@ -231,7 +230,6 @@ body .shalay-sec .default-container .col-50 ul li {
   padding-right: 57px;
 }
 body .Panchkarma-sec {
-  height: 681px;
   position: relative;
   margin-top: 171px;
 }
@@ -326,7 +324,6 @@ body .Panchkarma-sec .default-container .col-50 ul li::before {
   font-size: 12px;
 }
 body .kayachikitsa-sec {
-  height: 346px;
   position: relative;
   margin-top: 173px;
 }
@@ -377,7 +374,6 @@ body .kayachikitsa-sec .default-container p {
   padding-right: 57px;
 }
 body .shalakya-sec {
-  height: 470px;
   position: relative;
   margin-top: 171px;
 }
@@ -459,7 +455,6 @@ body .shalakya-sec ul li::before {
   font-size: 12px;
 }
 body .striprasuti-sec {
-  height: 525px;
   position: relative;
   margin-top: 173px;
 }
@@ -535,7 +530,6 @@ body .striprasuti-sec .default-container ul li::before {
   font-size: 12px;
 }
 body .balroga-sec {
-  height: 558px;
   position: relative;
   margin: 171px 0px;
 }
@@ -622,7 +616,7 @@ body .balroga-sec p:nth-child(2) {
     padding: 44px 68px 67px 36px;
   }
 }
-@media (max-width: 788px) {
+@media (max-width: 768px) {
   body .hospital-sec .default-container .col-33,
   body .hospital-facilities-sec .default-container .p-sec .col-50,
   body .hospital-unit-sec .default-container .col-50 {
@@ -654,5 +648,59 @@ body .balroga-sec p:nth-child(2) {
   }
   body .hospital-facilities-sec .default-container {
     padding: 64px 60px;
+  }
+  body .shalay-sec::before,
+  body .Panchkarma-sec::after,
+  body .kayachikitsa-sec::before,
+  body .shalakya-sec::after,
+  body .striprasuti-sec::before,
+  body .balroga-sec::after {
+    border-radius: 20px;
+    width: calc(100% - 100px);
+    left: 50px;
+  }
+  body .Panchkarma-sec,
+  body .shalakya-sec,
+  body .striprasuti-sec,
+  body .balroga-sec {
+    margin-top: 118px;
+  }
+  body .shalay-sec .default-container .col-50 {
+    width: 100%;
+    padding-top: 229px;
+    padding-left: 0;
+  }
+  body .Panchkarma-sec .default-container .col-50:nth-child(1) {
+    width: 100% !important;
+    padding-top: 671px;
+  }
+  body .Panchkarma-sec .default-container .col-50:nth-child(2),
+  body .kayachikitsa-sec .default-container .col-50:nth-child(1),
+  body .shalakya-sec .default-container .col-50:nth-child(2),
+  body .striprasuti-sec .default-container .col-50:nth-child(1),
+  body .balroga-sec .default-container .col-50:nth-child(2) {
+    width: 0%;
+  }
+  body .kayachikitsa-sec .default-container,
+  body .striprasuti-sec .default-container {
+    gap: 0;
+  }
+  body .kayachikitsa-sec .default-container .col-50:nth-child(2) {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 350px;
+  }
+  body .shalakya-sec .default-container .col-50:nth-child(1) {
+    width: 100%;
+    padding-top: 476px;
+  }
+  body .striprasuti-sec .default-container .col-50:nth-child(2) {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 500px;
+  }
+  body .balroga-sec .default-container .col-50:nth-child(1) {
+    width: 100%;
+    padding-top: 520px;
   }
 }

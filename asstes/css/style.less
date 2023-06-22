@@ -370,14 +370,6 @@ footer {
 }
 
 @media(max-width:768px) {
-    body header nav a.logo img {
-        max-width: 230px;
-    }
-
-    body .gallery .default-container .galle-btn .gell-btn {
-
-        font-size: 16px !important;
-    }
 
     body header nav .hamburger {
         display: block;
@@ -400,40 +392,67 @@ footer {
 
     body header nav .menu {
         position: fixed;
-        top: 163px;
+        top: 152px;
         flex-direction: column;
         gap: 10px;
-        right: -205px;
-        width: 200px;
-        height: 200px;
-        background-color: rgba(0, 0, 0, 0.1);
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--bg-green);
         backdrop-filter: blur(3px);
         transition: all 1s ease-in-out;
         margin-right: 0px;
+        z-index: 1;
 
+    }
+
+    body header nav .menu a {
+        font-size: 25px;
     }
 
     body header nav .menu.active {
-        right: 0px;
+        right: 0%;
     }
 
-    footer .default-container .col-33 {
-        width: calc(50% - 35px);
+    footer .default-container .col-33:nth-child(2) {
+        order: 1;
+        width: 100%;
     }
 
-    footer .default-container .col-33:nth-child(1),
+    footer .default-container .col-33:nth-child(1) {
+        order: 2;
+        padding-right: 0;
+        border: 0;
+    }
+
     footer .default-container .col-33:nth-child(3) {
-        text-align: center;
-        padding-right: 0px;
-        padding-left: 0px;
-        border: 0px;
+        order: 3;
+        padding-left: 0;
+        border: 0;
+        align-self: self-start;
+
     }
 
 }
 
-@media (max-width:700px) {
 
-    footer .default-container .col-33 {
-        width:100%;
+@media (max-width:520px) {
+    body header nav a.logo img {
+        max-width: 230px;
     }
+    footer .default-container
+    {
+        gap: 50px;
+    }
+    footer .default-container .col-33 {
+        width: 100%;
+        text-align: left !important;
+
+    }
+    footer .default-container .col-33:nth-child(2) ul {
+        justify-content: start;
+    }
+
+
+
 }

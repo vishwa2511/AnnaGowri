@@ -335,4 +335,7 @@ body main .facilities-sec .default-container .col-33 ul li::before {
     font-size: 16px;
     line-height: 27px;
   }
+  body main .hospital-divisions-sec .col-50 ul li::before {
+    top: 3px;
+  }
 }

@@ -438,27 +438,35 @@ footer {
 
 @media (max-width:520px) {
 
-    body header .top-header
-    {
+    body {
+        .default-container {
+            max-width: calc(100% - 60px) !important;
+        }
+    }
+
+    body header .top-header {
         display: none;
 
     }
-    body header nav .menu 
-    {
+
+    body header nav .menu {
         top: 127px;
     }
+
     body header nav a.logo img {
         max-width: 230px;
     }
-    footer .default-container
-    {
+
+    footer .default-container {
         gap: 50px;
     }
+
     footer .default-container .col-33 {
         width: 100%;
         text-align: left !important;
 
     }
+
     footer .default-container .col-33:nth-child(2) ul {
         justify-content: start;
     }

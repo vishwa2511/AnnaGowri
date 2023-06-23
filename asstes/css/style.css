@@ -478,6 +478,9 @@ footer .bottom-footer p span {
   }
 }
 @media (max-width: 520px) {
+  body .default-container {
+    max-width: calc(100% - 60px) !important;
+  }
   body header .top-header {
     display: none;
   }

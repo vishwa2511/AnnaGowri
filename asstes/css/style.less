@@ -339,6 +339,8 @@ footer {
     .bottom-footer {
         border-top: 1px solid #d4d4d4;
         padding: 16px 0;
+        display: flex;
+        justify-content: center;
 
         p {
             font-family: 'Open Sans', sans-serif;
@@ -348,6 +350,7 @@ footer {
             color: #fff;
             text-align: center;
             letter-spacing: 0.5px;
+            max-width: 330px;
 
             span {
 
@@ -396,18 +399,21 @@ footer {
         flex-direction: column;
         gap: 10px;
         right: -100%;
-        width: 100%;
+        width: 70%;
         height: 100vh;
-        background-color: var(--bg-green);
-        backdrop-filter: blur(3px);
+        background-color: #fff;
         transition: all 1s ease-in-out;
         margin-right: 0px;
         z-index: 1;
+        justify-content: start;
+        padding-top: 20px;
+        border-radius: 10px 0px 0px 0px;
 
     }
 
     body header nav .menu a {
-        font-size: 25px;
+        font-size: 20px;
+        color: var(--bg-green);
     }
 
     body header nav .menu.active {
@@ -437,10 +443,17 @@ footer {
 
 
 @media (max-width:520px) {
+    body header {
+        padding-bottom: 10px;
+    }
+
+    body header nav {
+        margin-top: 10px;
+    }
 
     body {
         .default-container {
-            max-width: calc(100% - 60px) !important;
+            max-width: calc(100% - 30px) !important;
         }
     }
 
@@ -450,7 +463,7 @@ footer {
     }
 
     body header nav .menu {
-        top: 120px;
+        top: 75px;
     }
 
     body header nav a.logo img {
@@ -463,14 +476,20 @@ footer {
 
     footer .default-container .col-33 {
         width: 100%;
-        text-align: left !important;
+        text-align: center !important;
 
     }
 
     footer .default-container .col-33:nth-child(2) ul {
-        justify-content: start;
+        justify-content: center;
     }
 
+    main .banner-sec-all {
+        height: 275px;
+    }
 
+    main .banner-sec-all .default-container {
+        padding: 96px 0px 0px;
+    }
 
 }

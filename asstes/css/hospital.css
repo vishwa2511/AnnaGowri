@@ -705,6 +705,20 @@ body .balroga-sec p:nth-child(2) {
   }
 }
 @media (max-width: 520px) {
+  body .shalay-sec::before,
+  body .Panchkarma-sec::after,
+  body .kayachikitsa-sec::before,
+  body .shalakya-sec::after,
+  body .striprasuti-sec::before,
+  body .balroga-sec::after {
+    border-radius: 20px;
+    width: calc(100% - 30px);
+    left: 15px;
+  }
+  body .Panchkarma-sec .default-container .col-50 .vamana {
+    flex-direction: column;
+    gap: 10px;
+  }
   main .banner-sec-all .default-container h1 {
     font-size: 30px;
   }
@@ -715,10 +729,13 @@ body .balroga-sec p:nth-child(2) {
   body .hospital-facilities-sec,
   body .hospital-sec .default-container,
   body .hospital-unit-sec .default-container {
-    padding-top: 80px;
+    padding-top: 60px;
   }
   body .hospital-unit-sec .default-container {
     padding-bottom: 0;
+  }
+  body .balroga-sec {
+    margin-bottom: 60px;
   }
   body .shalay-sec .default-container,
   body .Panchkarma-sec,
@@ -726,7 +743,7 @@ body .balroga-sec p:nth-child(2) {
   body .striprasuti-sec,
   body .balroga-sec,
   body .kayachikitsa-sec {
-    margin-top: 80px;
+    margin-top: 60px;
   }
   body .hospital-facilities-sec .default-container h3,
   body .hospital-unit-sec .default-container .col-50 h3,
@@ -737,11 +754,14 @@ body .balroga-sec p:nth-child(2) {
   body .balroga-sec h2 {
     font-size: 28px;
   }
-  body .hospital-facilities-sec .default-container {
+  body .hospital-facilities-sec .default-container,
+  body .hospital-unit-sec .default-container .col-50 {
     padding: 44px 30px;
+    box-shadow: none;
+    border: 2px solid #d6cece;
   }
   body .hospital-facilities-sec .default-container .p-sec {
-    gap: 40px;
+    gap: 20px;
   }
   body .shalay-sec::before,
   body .shalakya-sec::after,

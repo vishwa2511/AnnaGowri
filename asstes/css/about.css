@@ -70,6 +70,7 @@
   font-weight: 500;
   line-height: 41px;
   color: var(--bg-green);
+  margin-bottom: 10px;
 }
 .vision .default-container p {
   font-size: 21px;
@@ -99,6 +100,7 @@
   font-weight: 500;
   line-height: 41px;
   color: var(--bg-green);
+  margin-bottom: 10px;
 }
 .mission .default-container p {
   font-size: 21px;
@@ -217,10 +219,13 @@
   }
   .vision .default-container .col-55,
   .mission .default-container .col-55 {
-    margin-top: 35px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 520px) {
+  main .banner-sec-all .default-container h1 {
+    font-size: 36px;
+  }
   .admin .default-container .admin-section .col-33 {
     width: 100%;
   }
@@ -230,9 +235,13 @@
   .mission .default-container .col-55 {
     padding: 53px 30px;
   }
+  .ayurveda .default-container,
   .vision .default-container,
   .admin .default-container {
-    padding-top: 80px;
+    padding-top: 60px;
+  }
+  .admin .default-container {
+    padding-bottom: 60px;
   }
   .admin .default-container h2 {
     font-size: 29px;
@@ -243,6 +252,7 @@
   .vision .default-container p,
   .mission .default-container p {
     font-size: 17px;
+    line-height: 27px;
   }
   .admin .default-container .admin-section .col-33 .adm-img {
     height: 284px;

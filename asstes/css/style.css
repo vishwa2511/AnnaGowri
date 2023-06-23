@@ -443,7 +443,7 @@ footer .bottom-footer p span {
   }
   body header nav .menu {
     position: fixed;
-    top: 152px;
+    top: 168px;
     flex-direction: column;
     gap: 10px;
     right: -100%;
@@ -480,6 +480,9 @@ footer .bottom-footer p span {
 @media (max-width: 520px) {
   body header .top-header {
     display: none;
+  }
+  body header nav .menu {
+    top: 127px;
   }
   body header nav a.logo img {
     max-width: 230px;

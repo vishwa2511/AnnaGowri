@@ -346,10 +346,11 @@ body {
     body main .facilities-sec .default-container .col-33 {
         width: 100%;
     }
-    body main .facilities-sec .default-container .col-33:nth-child(1)
-    {
+
+    body main .facilities-sec .default-container .col-33:nth-child(1) {
         max-width: 350px;
     }
+
     body main .about-us-sec .default-container .col-50 {
         width: 100%;
         padding: 0;
@@ -362,6 +363,32 @@ body {
     body main .about-us-sec .default-container .col-50:nth-child(2) {
         padding-left: 0px;
         padding-top: 30px;
+    }
+
+}
+
+@media (max-width:520px) {
+    body main .hospital-divisions-sec .col-50:nth-child(2) {
+        padding: 45px 20px;
+    }
+
+    body main .about-us-sec .default-container,
+    body main .hospital-divisions-sec,
+    body main .facilities-sec .default-container{
+        padding-bottom: 80px;
+    }
+    body main .facilities-sec .default-container
+    {
+        padding-top: 0px;
+    }
+
+    body main .hospital-divisions-sec .col-50 h2 {
+        font-size: 27px;
+    }
+
+    body main .hospital-divisions-sec .col-50 ul li {
+        font-size: 16px;
+        line-height: 27px;
     }
 
 }

@@ -220,8 +220,31 @@
     margin-top: 35px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 520px) {
   .admin .default-container .admin-section .col-33 {
     width: 100%;
+  }
+  .ayurveda .default-container .col-50:nth-child(1) .ayurimg {
+    height: 233.25px;
+  }
+  .mission .default-container .col-55 {
+    padding: 53px 30px;
+  }
+  .vision .default-container,
+  .admin .default-container {
+    padding-top: 80px;
+  }
+  .admin .default-container h2 {
+    font-size: 29px;
+  }
+  .vision .default-container .col-55 {
+    padding: 44px 29px;
+  }
+  .vision .default-container p,
+  .mission .default-container p {
+    font-size: 17px;
+  }
+  .admin .default-container .admin-section .col-33 .adm-img {
+    height: 284px;
   }
 }

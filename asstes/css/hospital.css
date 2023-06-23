@@ -181,7 +181,7 @@ body .shalay-sec {
 }
 body .shalay-sec::before {
   content: "";
-  background-image: url(/asstes/images/shalay1.webp);
+  background-image: url(asstes/images/shalay1.webp);
   background-position: center;
   background-size: cover;
   width: 50vw;
@@ -235,7 +235,7 @@ body .Panchkarma-sec {
 }
 body .Panchkarma-sec::after {
   content: "";
-  background-image: url(/asstes/images/shalay2.webp);
+  background-image: url(asstes/images/shalay2.webp);
   background-position: center;
   background-size: cover;
   width: 45vw;
@@ -329,7 +329,7 @@ body .kayachikitsa-sec {
 }
 body .kayachikitsa-sec::before {
   content: "";
-  background-image: url(/asstes/images/shalay23.webp);
+  background-image: url(asstes/images/shalay23.webp);
   background-position: center;
   background-size: cover;
   width: 50vw;
@@ -379,7 +379,7 @@ body .shalakya-sec {
 }
 body .shalakya-sec::after {
   content: "";
-  background-image: url(/asstes/images/shalay24.webp);
+  background-image: url(asstes/images/shalay24.webp);
   background-position: center;
   background-size: cover;
   width: 45vw;
@@ -460,7 +460,7 @@ body .striprasuti-sec {
 }
 body .striprasuti-sec::before {
   content: "";
-  background-image: url(/asstes/images/shalay25.webp);
+  background-image: url(asstes/images/shalay25.webp);
   background-position: center;
   background-size: cover;
   width: 50vw;
@@ -535,7 +535,7 @@ body .balroga-sec {
 }
 body .balroga-sec::after {
   content: "";
-  background-image: url(/asstes/images/shalay26.webp);
+  background-image: url(asstes/images/shalay26.webp);
   background-position: center;
   background-size: cover;
   width: 45vw;

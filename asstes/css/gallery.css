@@ -152,11 +152,29 @@ body .gallery .default-container .gall-section .gell-section:nth-child(2) .col-5
     width: calc(50% - 10px);
   }
 }
-@media (max-width: 677px) {
+@media (max-width: 520px) {
   body .gallery .default-container .gall-section .gell-section .col-25 {
     width: 100%;
   }
   body .gallery .default-container .gall-section .gell-section:nth-child(2) .col-50 {
     width: 100%;
+  }
+  main .banner-sec-all .default-container h1 {
+    font-size: 30px;
+  }
+  body .gallery .default-container {
+    padding-bottom: 80px;
+  }
+  body .gallery .default-container .galle-btn {
+    padding: 50px 0px;
+  }
+  body .gallery .default-container .galle-btn .gell-btn {
+    font-size: 16px;
+  }
+  body .gallery .default-container .gall-section .gell-section:nth-child(2) .col-50 .col-80 h4 {
+    font-size: 16px;
+  }
+  body .gallery .default-container .gall-section .gell-section:nth-child(2) .col-50 .col-80 p {
+    font-size: 14px;
   }
 }

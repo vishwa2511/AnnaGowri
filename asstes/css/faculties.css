@@ -171,9 +171,12 @@ body .medical-sec .default-container .facult-img-sec .col-25 p {
     width: calc(50% - 18px);
   }
 }
-@media (max-width: 630px) {
+@media (max-width: 520px) {
   body .facult-sec .default-container .facult-img-sec .col-25,
   body .medical-sec .default-container .facult-img-sec .col-25 {
     width: 100%;
+  }
+  main .banner-sec-all .default-container h1 {
+    font-size: 30px;
   }
 }

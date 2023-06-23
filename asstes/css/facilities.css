@@ -77,3 +77,43 @@ body .facilities .default-container .facilities-sec .col-70 .fact-section p {
   max-width: 600px;
   color: #4C4C4C;
 }
+@media (max-width: 1024px) {
+  body .facilities .default-container .facilities-sec .col-30 {
+    padding: 40px 25px 92px 25px;
+  }
+}
+body .facilities .default-container .facilities-sec {
+  box-shadow: none;
+}
+@media (max-width: 678px) {
+  body .facilities .default-container .facilities-sec .col-30 {
+    display: none;
+  }
+  body .facilities .default-container .facilities-sec .col-70 .fact-section,
+  body .facilities .default-container .facilities-sec .col-70 .fact-section.active {
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    padding: 44px 30px;
+    animation: 0;
+  }
+  body .facilities .default-container .facilities-sec .col-70 {
+    width: 100%;
+  }
+}
+@media (max-width: 520px) {
+  main .banner-sec-all .default-container h1 {
+    font-size: 30px;
+  }
+  body .facilities .default-container .facilities-sec .col-70 .fact-section,
+  body .facilities .default-container .facilities-sec .col-70 .fact-section.active {
+    padding: 30px 0;
+  }
+  body .facilities .default-container .facilities-sec .col-70 .fact-section h3 {
+    font-size: 28px;
+  }
+  body .facilities .default-container .facilities-sec .col-70 .fact-section p {
+    font-size: 15px;
+    text-align: justify;
+  }
+}

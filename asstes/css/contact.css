@@ -155,3 +155,24 @@ body .map-sec .default-container .cont-img {
     padding-top: 40px;
   }
 }
+@media (max-width: 520px) {
+  main .banner-sec-all .default-container h1 {
+    font-size: 30px;
+  }
+  body .contact-sec .default-container .col-50:nth-child(1) .contant-img {
+    height: 303.14px;
+  }
+  body .contact-sec .default-container .col-50:nth-child(2) h2 {
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  body .contact-sec .default-container .col-50:nth-child(2) .card .col-80 h3 {
+    font-size: 18px;
+  }
+  body .map-sec .default-container {
+    padding: 80px 0px;
+  }
+  body .map-sec .default-container .cont-img {
+    height: 300px;
+  }
+}

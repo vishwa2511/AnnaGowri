@@ -172,9 +172,17 @@ body .medical-sec .default-container .facult-img-sec .col-25 p {
   }
 }
 @media (max-width: 520px) {
+  body .facult-sec .default-container {
+    padding: 60px 0px 0px 0px;
+  }
+  body .facult-sec .default-container .facult-img-sec,
+  body .medical-sec .default-container .facult-img-sec {
+    justify-content: center;
+  }
   body .facult-sec .default-container .facult-img-sec .col-25,
   body .medical-sec .default-container .facult-img-sec .col-25 {
     width: 100%;
+    max-width: 250px;
   }
   main .banner-sec-all .default-container h1 {
     font-size: 30px;

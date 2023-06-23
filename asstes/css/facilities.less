@@ -12,6 +12,9 @@
                     box-shadow: 0px 11.4px 29.3143px rgba(204, 204, 204, 0.25);
                     border-radius: 23px;
                     overflow: hidden;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
 
                     .col-30 {
                         background-color: #EFF6F1;
@@ -27,7 +30,6 @@
                             line-height: 25px;
                             font-family: 'Open Sans', sans-serif;
                             cursor: pointer;
-
                         }
 
                         .fact_btn:hover,
@@ -100,56 +102,106 @@
 
     }
 
-    @media (max-width:1024px) {
-        body .facilities .default-container .facilities-sec .col-30 {
-            padding: 40px 25px 92px 25px;
-        }
-
-    }
-
-    body .facilities .default-container .facilities-sec {
-        box-shadow: none;
-    }
-
     @media (max-width:678px) {
+        body .facilities .default-container .facilities-sec {
+            height: 90vh;
+            overflow: visible;
+        }
+
         body .facilities .default-container .facilities-sec .col-30 {
-            display: none;
-        }
-
-        body .facilities .default-container .facilities-sec .col-70 .fact-section,
-        body .facilities .default-container .facilities-sec .col-70 .fact-section.active {
-            visibility: visible;
-            opacity: 1;
-            position: relative;
-            padding: 44px 30px;
-            animation: 0;
-        }
-
-        body .facilities .default-container .facilities-sec .col-70 {
+            display: flex;
+            flex-wrap: wrap;
             width: 100%;
 
         }
+
+        body .facilities .default-container .facilities-sec .col-30 .fact_btn {
+            width: calc(33.33% - 20px);
+            font-size: 14px;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        body .facilities .default-container .facilities-sec .col-70 {
+            height: 100%;
+        }
+
+        body .facilities .default-container .facilities-sec .col-30,
+        body .facilities .default-container .facilities-sec .col-70 {
+            width: 100%;
+        }
+
+        body .facilities .default-container .facilities-sec .col-30 {
+            padding: 30px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        body .facilities .default-container .facilities-sec .col-70 .fact-section {
+            padding: 30px 20px;
+        }
+
     }
 
     @media (max-width:520px) {
         main .banner-sec-all .default-container h1 {
-            font-size: 30px;
+            font-size: 36px;
         }
 
-        body .facilities .default-container .facilities-sec .col-70 .fact-section,
-        body .facilities .default-container .facilities-sec .col-70 .fact-section.active {
-
-            padding: 30px 0;
+        body .facilities .default-container {
+            padding: 60px 0px;
         }
 
         body .facilities .default-container .facilities-sec .col-70 .fact-section h3 {
-            font-size: 28px;
-
+            font-size: 30px;
         }
 
-        body .facilities .default-container .facilities-sec .col-70 .fact-section p {
-            font-size: 15px;
-            text-align: justify;
+        body .facilities .default-container .facilities-sec .col-30 {
 
+            gap: 5px;
+        }
+
+        body .facilities .default-container .facilities-sec .col-70 .fact-section .bar {
+
+            margin: 20px 0px;
+        }
+
+        body .facilities .default-container .facilities-sec .col-30 .fact_btn {
+            font-size: 11px;
+            text-align: center;
+            white-space: nowrap;
+            width: auto;
+        }
+
+        body .facilities .default-container .facilities-sec .col-30 .fact_btn:nth-child(1) {
+            order: 1;
+        }
+
+        body .facilities .default-container .facilities-sec .col-30 .fact_btn:nth-child(2) {
+            order: 2;
+        }
+
+        body .facilities .default-container .facilities-sec .col-30 .fact_btn:nth-child(3) {
+            order: 6;
+        }
+
+        body .facilities .default-container .facilities-sec .col-30 .fact_btn:nth-child(4) {
+            order: 4;
+        }
+
+        body .facilities .default-container .facilities-sec .col-30 .fact_btn:nth-child(5) {
+            order: 5;
+        }
+        body .facilities .default-container .facilities-sec .col-30 .fact_btn:nth-child(6) {
+            order: 3;
+        }
+
+
+        body .facilities .default-container .facilities-sec .col-70 .fact-section p {
+
+            font-size: 14px;
+            line-height: 21px;
         }
     }

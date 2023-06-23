@@ -368,19 +368,32 @@ body {
 }
 
 @media (max-width:520px) {
+    body main .banner-sec {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    body main .banner-sec .default-container {
+        padding: 0px;
+    }
+
     body main .hospital-divisions-sec .col-50:nth-child(2) {
-        padding: 45px 20px;
-        width: calc(100% - 60px);
-        left: 30px;
+        padding: 31px 0px 0px 0px;
+        width: calc(100% - 40px);
+        left: 20px;
         margin-top: 406px;
+        min-height: auto;
     }
 
     body main .about-us-sec .default-container,
-    body main .facilities-sec .default-container{
+    body main .facilities-sec .default-container {
         padding: 60px 0px;
     }
-    body main .hospital-divisions-sec
-    {
+
+    body main .hospital-divisions-sec {
         padding-bottom: 0px;
     }
 

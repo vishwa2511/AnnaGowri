@@ -223,6 +223,9 @@
   }
 }
 @media (max-width: 520px) {
+  .admin .default-container .admin-section {
+    gap: 20px;
+  }
   main .banner-sec-all .default-container h1 {
     font-size: 36px;
   }

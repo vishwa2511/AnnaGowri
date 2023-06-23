@@ -82,7 +82,7 @@ body .facilities .default-container .facilities-sec .col-70 .fact-section p {
 }
 @media (max-width: 678px) {
   body .facilities .default-container .facilities-sec {
-    height: 90vh;
+    height: 100vh;
     overflow: visible;
   }
   body .facilities .default-container .facilities-sec .col-30 {

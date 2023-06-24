@@ -501,7 +501,8 @@ footer .bottom-footer p span {
   body header .top-header {
     display: none;
   }
-  body header nav a.logo img {
+  body header nav a.logo img,
+  body header nav a.logo {
     max-width: 200px;
   }
   footer .default-container {

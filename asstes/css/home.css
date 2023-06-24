@@ -270,6 +270,7 @@ body main .facilities-sec .default-container .col-33 ul li::before {
   body main .banner-sec .default-container h1 {
     font-size: 30px;
     max-width: 400px;
+    text-align: center;
   }
   body main .about-us-sec .default-container p,
   body main .about-us-sec .default-container h2 {

@@ -621,6 +621,7 @@ body .balroga-sec p:nth-child(2) {
   body .hospital-facilities-sec .default-container .p-sec .col-50,
   body .hospital-unit-sec .default-container .col-50 {
     width: 100%;
+    min-height: auto;
   }
   body .hospital-sec .default-container .col-33:nth-child(1) {
     order: 1;

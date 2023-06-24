@@ -721,6 +721,7 @@ body .balroga-sec p:nth-child(2) {
   }
   main .banner-sec-all .default-container h1 {
     font-size: 30px;
+    padding-top: 35px;
   }
   body .hospital-sec .default-container .col-33 .col-80,
   body .hospital-sec .default-container .col-33 .col-20 {
@@ -756,9 +757,15 @@ body .balroga-sec p:nth-child(2) {
   }
   body .hospital-facilities-sec .default-container,
   body .hospital-unit-sec .default-container .col-50 {
-    padding: 44px 30px;
+    padding: 20px 30px;
     box-shadow: 0px 2px 17px rgba(167, 167, 167, 0.25);
     border-radius: 24px;
+  }
+  body .hospital-facilities-sec .default-container .p-sec p,
+  body .hospital-unit-sec .default-container .col-50 ul li,
+  body .Panchkarma-sec .default-container .col-50 ul li,
+  body .shalakya-sec ul li {
+    text-align: left;
   }
   body .hospital-facilities-sec .default-container .p-sec {
     gap: 20px;

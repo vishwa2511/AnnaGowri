@@ -183,8 +183,10 @@ body .medical-sec .default-container .facult-img-sec .col-25 p {
   body .medical-sec .default-container .facult-img-sec .col-25 {
     width: 100%;
     max-width: 250px;
+    background: #e4ffed;
   }
   main .banner-sec-all .default-container h1 {
     font-size: 30px;
+    padding: 34px;
   }
 }

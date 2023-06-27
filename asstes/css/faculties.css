@@ -124,7 +124,7 @@ body .medical-sec .default-container .facult-img-sec {
   gap: 36px;
 }
 body .medical-sec .default-container .facult-img-sec .col-25 {
-  width: calc(25% - 37.7px);
+  width: calc(25% - 37px);
   background: #F8FFFA;
   border-radius: 30px;
   display: flex;
@@ -146,7 +146,7 @@ body .medical-sec .default-container .facult-img-sec .col-25 h3 {
   font-family: 'Playfair Display', serif;
   font-size: 25px;
   font-weight: 800;
-  line-height: 33.32px;
+  line-height: 33px;
   color: #1D2432;
   text-align: center;
   padding: 20px 0px 8px 0px;

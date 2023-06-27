@@ -7,7 +7,7 @@ body .contact-sec .default-container .col-50:nth-child(1) {
 }
 body .contact-sec .default-container .col-50:nth-child(1) .contant-img {
   background-image: url(../../asstes/images/contact-phone.webp);
-  height: 553.14px;
+  height: 553px;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -20,7 +20,7 @@ body .contact-sec .default-container .col-50:nth-child(2) {
 }
 body .contact-sec .default-container .col-50:nth-child(2) h2 {
   font-size: 40.71px;
-  line-height: 51.27px;
+  line-height: 51px;
   font-weight: 800;
   font-family: 'Playfair Display', serif;
   color: var(--bg-green);
@@ -40,8 +40,8 @@ body .contact-sec .default-container .col-50:nth-child(2) .card .col-20 i {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 72.47px;
-  height: 72.47px;
+  width: 72px;
+  height: 72px;
   background-color: #F4F4F4;
   margin-right: 4px;
   position: relative;
@@ -82,8 +82,8 @@ body .contact-sec .default-container .col-50:nth-child(2) .card .col-80 p span {
   color: #8e8e8e;
 }
 body .contact-sec .default-container .col-50:nth-child(2) .card h3 {
-  font-size: 20.36px;
-  line-height: 23.86px;
+  font-size: 20px;
+  line-height: 23px;
   font-weight: 800;
   font-family: 'Roboto', sans-serif;
   color: var(--bg-green);
@@ -168,7 +168,7 @@ body .map-sec .default-container .cont-img {
     padding-top: 35;
   }
   body .contact-sec .default-container .col-50:nth-child(1) .contant-img {
-    height: 303.14px;
+    height: 303px;
   }
   body .contact-sec .default-container .col-50:nth-child(2) h2 {
     font-size: 26px;

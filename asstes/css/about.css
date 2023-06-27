@@ -82,7 +82,7 @@
   background-color: #F9F8F8;
   padding: 78px 29px;
   border-radius: 22px;
-  height: 306.38px;
+  height: 306px;
 }
 .mission .default-container {
   padding: 35px 0px 0px 0px;
@@ -92,7 +92,7 @@
   padding: 79px 0px 77px 55px;
   background-color: #F9F8F8;
   border-radius: 22px;
-  height: 382.62px;
+  height: 382px;
 }
 .mission .default-container h2 {
   font-family: 'Playfair Display', serif;
@@ -112,7 +112,7 @@
   padding-left: 50px;
 }
 .mission .default-container .col-45 .missionimg {
-  height: 382.62px;
+  height: 382px;
   background-image: url(../../asstes/images/about/about-3.webp);
   background-position: center;
   background-size: cover;
@@ -162,14 +162,14 @@
   background-image: url(../../asstes/images/about/admin2.webp);
 }
 .admin .default-container .admin-section .col-33:hover {
-  box-shadow: 0px 16.478px 28.8365px rgba(167, 167, 167, 0.25);
+  box-shadow: 0px 16px 28px rgba(167, 167, 167, 0.25);
   background-color: #fff;
 }
 .admin .default-container .admin-section .col-33 .txt {
   padding: 27px 29px;
 }
 .admin .default-container .admin-section .col-33 .adm-img {
-  height: 363.75px;
+  height: 363px;
   background-image: url(../../asstes/images/about/admin.webp);
   background-size: cover;
   background-position: center;
@@ -318,7 +318,7 @@
     width: 100%;
   }
   .ayurveda .default-container .col-50:nth-child(1) .ayurimg {
-    height: 233.25px;
+    height: 233px;
   }
   .mission .default-container .col-55 {
     padding: 53px 30px;

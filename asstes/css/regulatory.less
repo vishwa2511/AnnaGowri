@@ -1,7 +1,6 @@
 .regulatory {
     .default-container {
-        flex-direction: column;
-        margin-top: 80px;
+        padding: 80px 0px;
 
         h3 {
             font-family: 'Playfair Display', serif;
@@ -81,5 +80,44 @@
                 }
             }
         }
+    }
+}
+
+@media(max-width:1080px) {
+
+    .regulatory .default-container .regulatory-sec .col-33 {
+        width: calc(50% - 25px);
+    }
+
+    .regulatory .default-container .regulatory-sec .col-33 .col-70 h4 {
+        font-size: 18px;
+    }
+
+    .regulatory .default-container .regulatory-sec .col-33:nth-child(1) .col-70 a {
+        margin-top: 0px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .regulatory .default-container .regulatory-sec .col-33 {
+        width: 100%;
+    }
+}
+
+@media(max-width:520px) {
+
+    .regulatory .default-container .regulatory-sec .col-33:nth-child(1) .col-70 a {
+        margin-top: 0px;
+    }
+
+    .regulatory .default-container h3 {
+        font-size: 25px;
+    }
+
+    main .banner-sec-all .default-container h1 {
+        font-size: 30px;
+        padding-top: 35px;
     }
 }

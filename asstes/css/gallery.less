@@ -47,7 +47,7 @@ body {
 
                     .col-25 {
                         width: calc(25% - 15px);
-
+                        overflow: hidden;
                         &:nth-child(2) {
                             .gell-img {
                                 background-image: url(../../asstes/images/gallery/g2.webp);
@@ -145,6 +145,12 @@ body {
                             background-size: cover;
                             background-position: center;
                             border-radius: 22px;
+                            transition: transform .2s;
+                            overflow: hidden;
+
+                            &:hover {
+                                transform: scale(1.1);
+                            }
                         }
 
                         h3 {

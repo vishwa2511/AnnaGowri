@@ -429,6 +429,9 @@ footer .bottom-footer p span {
   body .default-container {
     max-width: calc(100% - 100px) !important;
   }
+  body header nav .menu {
+    gap: 10px;
+  }
 }
 @media (max-width: 768px) {
   body header nav .hamburger {

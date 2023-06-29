@@ -40,6 +40,7 @@ body .gallery .default-container .gall-section .gell-section.active {
 }
 body .gallery .default-container .gall-section .gell-section .col-25 {
   width: calc(25% - 15px);
+  overflow: hidden;
 }
 body .gallery .default-container .gall-section .gell-section .col-25:nth-child(2) .gell-img {
   background-image: url(../../asstes/images/gallery/g2.webp);
@@ -93,6 +94,11 @@ body .gallery .default-container .gall-section .gell-section .col-25 .gell-img {
   background-size: cover;
   background-position: center;
   border-radius: 22px;
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+body .gallery .default-container .gall-section .gell-section .col-25 .gell-img:hover {
+  transform: scale(1.1);
 }
 body .gallery .default-container .gall-section .gell-section .col-25 h3 {
   font-size: 16px;

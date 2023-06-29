@@ -1,0 +1,68 @@
+.regulatory .default-container {
+  flex-direction: column;
+  margin-top: 80px;
+}
+.regulatory .default-container h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 50px;
+  color: var(--bg-green);
+  margin-bottom: 40px;
+}
+.regulatory .default-container .regulatory-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.regulatory .default-container .regulatory-sec .col-33 {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: -2px -2px 20px 7px rgba(0, 0, 0, 0.07);
+  width: calc(33.3333% - 10px);
+}
+.regulatory .default-container .regulatory-sec .col-33 .col-30 img {
+  max-width: 120px;
+}
+.regulatory .default-container .regulatory-sec .col-33 .col-70 {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.regulatory .default-container .regulatory-sec .col-33 .col-70 h4 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.regulatory .default-container .regulatory-sec .col-33 .col-70 a {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 26px;
+  display: table;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+.regulatory .default-container .regulatory-sec .col-33 .col-70 a::before {
+  content: "\f061";
+  position: absolute;
+  color: var(--bg-green);
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  top: 8px;
+  font-size: 13px;
+  right: -23px;
+}
+.regulatory .default-container .regulatory-sec .col-33:nth-child(1) .col-70 a {
+  margin-top: 20px;
+}

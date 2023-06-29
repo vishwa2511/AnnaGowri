@@ -288,7 +288,7 @@ main .banner-sec-all .default-container {
   text-align: center;
 }
 main .banner-sec-all .default-container h1 {
-  font-size: 52.5px;
+  font-size: 52px;
   line-height: 70px;
   font-weight: 800;
   font-family: 'Playfair Display', serif;
@@ -316,7 +316,7 @@ footer .default-container ul li {
   list-style: none;
 }
 footer .default-container h2 {
-  font-size: 22.5px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 26px;
 }
@@ -333,19 +333,19 @@ footer .default-container .col-33:nth-child(1) {
 footer .default-container .col-33:nth-child(1) h4 {
   font-size: 13.6px;
   font-weight: 700;
-  line-height: 22.27px;
-  margin-top: 23px;
+  line-height: 22px;
+  margin-top: 36px;
 }
 footer .default-container .col-33:nth-child(1) a {
   font-size: 13.6px;
   font-weight: 400;
-  line-height: 22.27px;
+  line-height: 22px;
   font-family: 'Open Sans', sans-serif;
 }
 footer .default-container .col-33:nth-child(1) p {
   font-size: 13.6px;
   font-weight: 400;
-  line-height: 22.27px;
+  line-height: 22px;
 }
 footer .default-container .col-33:nth-child(2) {
   text-align: center;
@@ -398,7 +398,7 @@ footer .default-container .col-33:nth-child(3) ul {
   margin-top: 17px;
 }
 footer .default-container .col-33:nth-child(3) ul li a {
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 35px;
   font-family: 'Open Sans', sans-serif;
@@ -413,7 +413,7 @@ footer .bottom-footer p {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 300;
-  line-height: 22.27px;
+  line-height: 22px;
   color: #fff;
   text-align: center;
   letter-spacing: 0.5px;
@@ -422,7 +422,7 @@ footer .bottom-footer p {
 footer .bottom-footer p span {
   font-size: 13px;
   font-weight: 700;
-  line-height: 22.27px;
+  line-height: 22px;
   color: #fff;
 }
 @media (max-width: 1200px) {

@@ -72,15 +72,38 @@
   color: var(--bg-green);
   margin-bottom: 10px;
 }
-.vision .default-container p {
-  font-size: 21px;
+.vision .default-container ul li {
+  padding-left: 34px;
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 22px;
   color: #4C4C4C;
+  position: relative;
+}
+.vision .default-container ul li::before {
+  content: "\f105";
+  position: absolute;
+  background-color: #4C4C4C;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  border-radius: 50%;
+  top: 1px;
+  left: 3px;
+  font-size: 12px;
 }
 .vision .default-container .col-55 {
   background-color: #F9F8F8;
-  padding: 78px 29px;
+  padding: 45px 29px;
   border-radius: 22px;
   height: 306px;
 }
@@ -89,7 +112,7 @@
   flex-wrap: wrap-reverse;
 }
 .mission .default-container .col-55 {
-  padding: 79px 0px 77px 55px;
+  padding: 79px 29px;
   background-color: #F9F8F8;
   border-radius: 22px;
   height: 382px;
@@ -102,11 +125,34 @@
   color: var(--bg-green);
   margin-bottom: 10px;
 }
-.mission .default-container p {
-  font-size: 21px;
+.mission .default-container ul li {
+  padding-left: 34px;
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 22px;
   color: #4C4C4C;
+  position: relative;
+}
+.mission .default-container ul li::before {
+  content: "\f105";
+  position: absolute;
+  background-color: #4C4C4C;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  border-radius: 50%;
+  top: 1px;
+  left: 3px;
+  font-size: 12px;
 }
 .mission .default-container .col-45 {
   padding-left: 50px;
@@ -187,6 +233,190 @@
   line-height: 20px;
   color: #4C4C4C;
 }
+.chairman .default-container {
+  flex-direction: column;
+  padding-bottom: 90px;
+}
+.chairman .default-container .chairman-sec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  width: 100%;
+}
+.chairman .default-container .chairman-sec .col-30 .chairman-image {
+  height: 363px;
+  background-image: url(../../asstes/images/about/admin.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 326px;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+.chairman .default-container .chairman-sec .col-30 .chairman-image .txt {
+  border-radius: 0px 0px 10px 10px;
+  background: #00AE55;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  bottom: -46px;
+  padding: 20px 36px;
+}
+.chairman .default-container .chairman-sec .col-30 .chairman-image .txt h3 {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: white;
+}
+.chairman .default-container .chairman-sec .col-30 .chairman-image .txt h4 {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+.chairman .default-container .chairman-sec .col-70 {
+  width: calc(70% - 60px);
+}
+.chairman .default-container .chairman-sec .col-70 h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #00AE55;
+  padding-bottom: 20px;
+}
+.chairman .default-container .chairman-sec .col-70 h3 {
+  color: #1D2432;
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+  padding-bottom: 20px;
+}
+.chairman .default-container .chairman-sec .col-70 .bg-green {
+  border-radius: 10px;
+  background: #00AE55;
+}
+.chairman .default-container .chairman-sec .col-70 .bg-green p {
+  color: var(--white, #FFF);
+  text-align: justify;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 30px 30px;
+}
+.chairman .default-container .chairman-sec .col-70 .col-2 {
+  padding-top: 43px;
+}
+.chairman .default-container .chairman-sec .col-70 .col-2 p {
+  color: #4C4C4C;
+  text-align: justify;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.chairman .default-container .chairman-sec:nth-child(2) {
+  padding-top: 30px;
+  gap: 40px;
+}
+.chairman .default-container .chairman-sec:nth-child(2) .col-60 {
+  width: calc(60% - 40px);
+}
+.chairman .default-container .chairman-sec:nth-child(2) p {
+  color: #4C4C4C;
+  text-align: justify;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.ceo .default-container {
+  flex-direction: column;
+  padding-bottom: 110px;
+}
+.ceo .default-container .ceo-sec {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.ceo .default-container .ceo-sec .col-70 {
+  width: calc(70% - 60px);
+}
+.ceo .default-container .ceo-sec .col-70 h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #00AE55;
+  padding-bottom: 20px;
+}
+.ceo .default-container .ceo-sec .col-70 h3 {
+  color: #1D2432;
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+  padding-bottom: 20px;
+}
+.ceo .default-container .ceo-sec .col-70 p {
+  color: #4C4C4C;
+  text-align: justify;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.ceo .default-container .ceo-sec .col-30 .ceo-image {
+  height: 363px;
+  background-image: url(../../asstes/images/about/admin2.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 326px;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+.ceo .default-container .ceo-sec .col-30 .ceo-image .txt {
+  border-radius: 0px 0px 10px 10px;
+  background: #00AE55;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  bottom: -46px;
+  padding: 20px 36px;
+}
+.ceo .default-container .ceo-sec .col-30 .ceo-image .txt h3 {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: white;
+}
+.ceo .default-container .ceo-sec .col-30 .ceo-image .txt h4 {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
 @media (max-width: 1080px) {
   .admin .default-container .admin-section .col-33 {
     width: calc(50% - 25px);
@@ -231,8 +461,23 @@
   .mission .default-container .col-55 {
     margin-top: 40px;
   }
+  .ceo .default-container .ceo-sec .col-70,
+  .ceo .default-container .ceo-sec .col-30,
+  .chairman .default-container .chairman-sec .col-70,
+  .chairman .default-container .chairman-sec .col-30,
+  .chairman .default-container .chairman-sec:nth-child(2) .col-60,
+  .chairman .default-container .chairman-sec:nth-child(2) .col-40 {
+    width: 100%;
+  }
 }
 @media (max-width: 520px) {
+  .chairman .default-container .chairman-sec {
+    gap: 70px;
+  }
+  .chairman .default-container .chairman-sec .col-30 .chairman-image,
+  .ceo .default-container .ceo-sec .col-30 .ceo-image {
+    max-width: none;
+  }
   .regulatory .default-container .regulatory-sec .col-33:nth-child(1) .col-70 a {
     margin-top: 0px;
   }
@@ -246,7 +491,13 @@
     font-size: 36px;
     padding-top: 35px;
   }
-  .admin .default-container .admin-section .col-33 {
+  .admin .default-container .admin-section .col-33,
+  .chairman .default-container .chairman-sec .col-70,
+  .chairman .default-container .chairman-sec .col-30,
+  .chairman .default-container .chairman-sec:nth-child(2) .col-60,
+  .chairman .default-container .chairman-sec:nth-child(2) .col-40,
+  .ceo .default-container .ceo-sec .col-70,
+  .ceo .default-container .ceo-sec .col-30 {
     width: 100%;
   }
   .ayurveda .default-container .col-50:nth-child(1) .ayurimg {
@@ -260,7 +511,8 @@
   .admin .default-container {
     padding-top: 60px;
   }
-  .admin .default-container {
+  .admin .default-container,
+  .chairman .default-container {
     padding-bottom: 60px;
   }
   .admin .default-container h2 {
@@ -276,5 +528,9 @@
   }
   .admin .default-container .admin-section .col-33 .adm-img {
     height: 284px;
+  }
+  .chairman .default-container .chairman-sec:nth-child(2) p,
+  .chairman .default-container .chairman-sec .col-70 .col-2 p {
+    padding: 0px;
   }
 }

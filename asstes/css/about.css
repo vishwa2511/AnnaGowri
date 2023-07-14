@@ -301,6 +301,7 @@
 .chairman .default-container .chairman-sec .col-70 .bg-green {
   border-radius: 10px;
   background: #00AE55;
+  position: relative;
 }
 .chairman .default-container .chairman-sec .col-70 .bg-green p {
   color: var(--white, #FFF);
@@ -311,6 +312,12 @@
   font-weight: 400;
   line-height: 24px;
   padding: 30px 30px;
+}
+.chairman .default-container .chairman-sec .col-70 .bg-green img {
+  position: absolute;
+  width: 60px;
+  left: 14px;
+  top: 10px;
 }
 .chairman .default-container .chairman-sec .col-70 .col-2 {
   padding-top: 43px;
@@ -349,7 +356,7 @@
 .ceo .default-container .ceo-sec {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   gap: 60px;
 }
 .ceo .default-container .ceo-sec .col-70 {
@@ -471,7 +478,8 @@
   }
 }
 @media (max-width: 520px) {
-  .chairman .default-container .chairman-sec {
+  .chairman .default-container .chairman-sec,
+  .ceo .default-container .ceo-sec {
     gap: 70px;
   }
   .chairman .default-container .chairman-sec .col-30 .chairman-image,

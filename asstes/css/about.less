@@ -400,6 +400,7 @@
                 .bg-green {
                     border-radius: 10px;
                     background: #00AE55;
+                    position: relative;
 
                     p {
                         color: var(--white, #FFF);
@@ -410,6 +411,13 @@
                         font-weight: 400;
                         line-height: 24px;
                         padding: 30px 30px
+                    }
+
+                    img {
+                        position: absolute;
+                        width: 60px;
+                        left: 14px;
+                        top: 10px;
                     }
                 }
 
@@ -461,7 +469,7 @@
         .ceo-sec {
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
+            flex-wrap: wrap-reverse;
             gap: 60px;
 
             .col-70 {
@@ -621,12 +629,13 @@
 
 @media(max-width:520px) {
 
-    .chairman .default-container .chairman-sec {
+    .chairman .default-container .chairman-sec,
+    .ceo .default-container .ceo-sec {
         gap: 70px;
     }
 
     .chairman .default-container .chairman-sec .col-30 .chairman-image,
-    .ceo .default-container .ceo-sec .col-30  .ceo-image{
+    .ceo .default-container .ceo-sec .col-30 .ceo-image {
         max-width: none;
     }
 
@@ -674,7 +683,8 @@
 
     }
 
-    .admin .default-container,.chairman .default-container {
+    .admin .default-container,
+    .chairman .default-container {
         padding-bottom: 60px;
     }
 
@@ -696,9 +706,9 @@
     .admin .default-container .admin-section .col-33 .adm-img {
         height: 284px;
     }
+
     .chairman .default-container .chairman-sec:nth-child(2) p,
-    .chairman .default-container .chairman-sec .col-70 .col-2 p
-    {
+    .chairman .default-container .chairman-sec .col-70 .col-2 p {
         padding: 0px;
     }
 

@@ -202,10 +202,10 @@
   cursor: pointer;
 }
 .admin .default-container .admin-section .col-33:nth-child(2) .adm-img {
-  background-image: url(./asstes/images/about/user.png);
+  background-image: url(.././asstes/images/about/user.png);
 }
 .admin .default-container .admin-section .col-33:nth-child(3) .adm-img {
-  background-image: url(./asstes/images/about/user.png);
+  background-image: url(.././asstes/images/about/user.png);
 }
 .admin .default-container .admin-section .col-33:hover {
   box-shadow: 0px 16px 28px rgba(167, 167, 167, 0.25);
@@ -216,7 +216,7 @@
 }
 .admin .default-container .admin-section .col-33 .adm-img {
   height: 363px;
-  background-image: url(./asstes/images/about/user.png);
+  background-image: url(../../asstes/images/about/user.png);
   background-size: cover;
   background-position: center;
 }
@@ -245,7 +245,7 @@
 }
 .chairman .default-container .chairman-sec .col-30 .chairman-image {
   height: 363px;
-  background-image: url(./asstes/images/about/user.png);
+  background-image: url(../../asstes/images/about/user.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -390,7 +390,7 @@
 }
 .ceo .default-container .ceo-sec .col-30 .ceo-image {
   height: 363px;
-  background-image: url(./asstes/images/about/user.png);
+  background-image: url(../../asstes/images/about/user.png);
   background-size: cover;
   background-position: center;
   position: relative;
